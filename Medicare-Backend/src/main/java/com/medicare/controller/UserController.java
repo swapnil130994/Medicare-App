@@ -33,10 +33,10 @@ public class UserController {
 	public void createAdmin(){
 		User admin = new User();
 		admin.setUsername("admin@medicare.com");
-		admin.setPassword("admin12345");
-		admin.setFirstName("Twarit");
-		admin.setLastName("Soni");
-		admin.setContactNumber("6265989908");
+		admin.setPassword("admin@123");
+		admin.setFirstName("admin");
+		admin.setLastName("admin");
+		admin.setContactNumber("6444444444");
 		Role role = new Role();
 		role.setRoleId(101L);
 		role.setRoleName("ADMIN");
